@@ -1,0 +1,39 @@
+name: app
+description: Palestine Application
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  lottie: ^2.7.0
+  flutter_svg: ^2.0.9
+
+  http: ^1.1.2
+  get_it: ^7.6.4
+  provider: ^6.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  import_sorter: ^4.6.0
+  flutter_lints: ^3.0.1
+
+import_sorter:
+  emojis: true
+  comments: false
+  ignored_files:
+    - \/test\/*
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/animations/
+    - assets/palestine_images/
